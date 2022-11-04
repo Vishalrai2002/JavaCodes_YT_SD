@@ -5,6 +5,17 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
+    public static void printjava(){
+        System.out.println("hello java");
+    }
+
+    public static void printName(String name){
+        System.out.println(name);
+    }
+
+    public static int sum(int a,int b){
+        return a+b;
+    }
     public static void main(String[] args) {
 
 //        System.out.println("Hello Java !"); // If you use println the after print the word it give the line break
@@ -297,7 +308,34 @@ public class Main {
 //        }
         // Now over all things are printed whether there was an exception above
 //        System.out.println("Student name is Vishal");
-        
+
+//        Methods and Function -> you can use function if you have to do repetitive work
+
+//        System.out.println("hello java");
+//        System.out.println("hello java");
+//        System.out.println("hello java");
+
+        // calling function for print hello java
+//        printjava();
+//        printjava();
+//        printjava();
+//
+//        // calling function to take user input name and print it
+//        Scanner sc=new Scanner(System.in);
+//        String name =sc.nextLine();
+//
+//        printName(name);
+
+        // Adding two number using function and methods
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a :");
+        int a=sc.nextInt();
+        System.out.println("Enter b :");
+        int b=sc.nextInt();
+        System.out.println(sum(a,b));
+
+
+
     }
 
 
